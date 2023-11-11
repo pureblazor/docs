@@ -32,8 +32,23 @@ This roadmap outlines what features we're locked on and currently building (Work
 ### Visual Page Builder
 - **Description**: Implement a drag-and-drop intuitive interface allowing users to create content in a visual fashion, without having to write code. Users will be able to select components like text, buttons, sliders, etc. in a crude approximation to tools like Retool or Bubble.
 
+### API Access
+- **Description**: REST API to manage all actions in the CMS using either REST or gRPS.
+
+### Integrate with the Existing Environment
+- **Description**: Being able to include the CMS easily in existing B2B applications in the customer's stack.
+
+### Fix Blazor Rendering Deficiency
+- **Description**: Fix deficiency with Blazor's refresh to resolve a number of user experience bugs (i.e. Make Blazor PWA auto-detect a newer version of the app; Web Assembly is too big and the signalr connection is not smooth; Failing to reconnect when tabbing away.)
+
+### Blazor Blocks
+- **Description**: Add a component library to build pages with code (like Radzen or Devexpress). Support reusable blocks of content across different website sections.
+
 ### Native AI
 - **Description**: AI support to generate titles, summaries, references, tags, and more.
+
+### Built-in DB for Your Content Type
+- **Description**: Custom form builder for customer content type.
 
 ### Internationalization and Localization
 - **Description**: Support Spanish, German, Portuguese, and French.
@@ -64,17 +79,29 @@ This roadmap outlines what features we're locked on and currently building (Work
 ### Logging
 - **Description**: Support bespoke logging service for Blazor or bring your own log solution such as Elastic/Datadog/text files.
 
+### Advanced CMS Features
+- **Description**: Publish history and rollback (undo or rollback to a previous version if needed).
+
+### Data Hydration
+- **Description**: Enable simple fetch and dom manipulation.
+
 ### Application Performance Monitoring (APM)
 - **Description**: Support bespoke Application Performance Monitoring (APM) or bring your own APM solution such as New Relic, DataDog, etc.
-
-### API Access
-- **Description**: REST API to manage all actions in the CMS using either REST or gRPS.
 
 ### Automatic Backups
 - **Description**: Automatically and securely backup all your content and data.
 
+### Mobile Friendly
+- **Description**: Support the following user requests: Be able to format numbers/strings on mobile (not just desktop). Detect which device the app is running on (like Bit Platform does). Preview in different screen layouts before publishing. Extensibility between web and mobile.
+
+### Visual Studio Templates
+- **Description**: Support Visual Studio templates.
+
 ### E-commerce Store Support
 - **Description**: First-party e-commerce support and integration capability for your own ecomm solution such as Shopify, Woo, etc.
+
+### Offline Support
+- **Description**: Run the app offline for customers in areas with low/unsteady internet connectivity.
 
 ### Live Editor
 - **Description**: Text editor built with Blazor, instead of a wrapper around existing JS implementations.
