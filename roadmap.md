@@ -6,9 +6,6 @@ This roadmap outlines what features we're locked on and currently building (Work
 
 ## What We're Working On Now = Q4 2023
 
-### Markdown Static Sites
-- **Description**: Create a full single-page static site with Markdown. 
-
 ### Blazor WASM Static Sites
 - **Description**: Host Blazor WASM static sites directly within PureBlazor with your choice of a built-in subdomain (e.g. your-name.wasmhost.dev). 
 
@@ -72,6 +69,9 @@ This roadmap outlines what features we're locked on and currently building (Work
 - **Description**: Use roles and claims to create security boundaries and authotization policies such as administrative access, guest/client login, etc.
 
 ## What We're Thinking of in the Future = Date TBD
+
+### Markdown Static Sites
+- **Description**: Create a full single-page static site with Markdown. Deprioritizing this milestone for now, because we aim to build PB in a way that abstracts all of Azure's infrastructure from the user and creates a container app for them.
 
 ### Analytics
 - **Description**: Support bespoke analytics for Blazor instead of solutions like GA/Amplitude.
